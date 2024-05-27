@@ -148,14 +148,16 @@ const SpecializedTracks = () => {
 
            <div className='flex flex-col sm:flex-row '>
             {
-              selectedItemData?.quarters.map((item)=>(
-                <QuarterBox
+              selectedItemData?.quarters.map((item,i)=>(
+                
+                <QuarterBox key={i}
             header={item.header}
             description={item.description}
             number={item.number}
              borderHave={false}
              paddingHave={false}
             />
+
               ))
             }
             

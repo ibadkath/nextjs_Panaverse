@@ -25,7 +25,7 @@ const Outcome = () => {
             {/* Content right */}
             <div className=' flex-1'>
                 <h3 className=' text-3xl md:text-5xl font-bold'>The Outcome for Participants of the Program</h3>
-                <p className=' mt-10 text-slate-600 text-lg'>As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistan's software exports</p>
+                <p className=' mt-10 text-slate-600 text-lg'>As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistans software exports</p>
                 <div className=' grid grid-cols-2 mt-12 gap-x-2 gap-y-4'>
                {
                 outcomePoints.map((item,i)=>(
