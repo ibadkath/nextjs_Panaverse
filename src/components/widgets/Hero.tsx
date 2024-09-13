@@ -5,7 +5,7 @@ import Button from "@/components/shared/button"
 
 const Hero = () => {
   return (
-    <section className="">
+    <section className="">\
       {/* Hero section is used in home page */}
     <Wrapper>
       <div className="flex flex-col md:flex-row items-center">
